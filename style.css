@@ -35,3 +35,11 @@ html {
     font-size: 0;
     perspective: 500px;
   }
+  
+  .items.active {
+    background: rgba(255,255,255,0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+  }
+  
